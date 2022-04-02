@@ -7,6 +7,7 @@ class QuoteApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Quote App',
       theme: ThemeData(
         primarySwatch: Colors.blue,
